@@ -1,0 +1,18 @@
+
+http://localhost:8080/startCron
+
+{
+	"serverName": "Ymint02",
+	"appName": "Backup",
+	"command": "tar -zcf /var/backups/home.tgz /home/"
+}
+
+
+
+http://localhost:8080/endCron
+
+{
+	"serverName": "Ymint02",
+	"appName": "Backup",
+	"command": "tar -zcf /var/backups/home.tgz /home/"
+}
